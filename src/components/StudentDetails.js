@@ -84,7 +84,7 @@ const mockStudent = {
 };
 
 const StudentDetails = () => {
-  const { id } = useParams();
+  //const { id } = useParams();
   const student = mockStudent; // Replace with actual API fetch later
   const [selectedCertificate, setSelectedCertificate] = useState(null);
 
